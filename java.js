@@ -1,4 +1,4 @@
- Calculadora de IMC
+ Calculadora IMC
 
 let peso = parseFloat(prompt("Ingrese peso en kg:"))
 let altura = parseFloat(prompt("Ingrese altura en metros:"))
@@ -12,3 +12,4 @@ else estado = "Obesidad"
 
 
 console.log(`IMC: ${imc.toFixed(2)} - Estado: ${estado}`)
+
